@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script type="text/javascript"src="assets/js/app1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gestion de stock</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+ <div class="container">
+
+    <h1 class="p_titles text-center"> Ajoutez un produit au stock :</h1>
+    <div class="alert"></div>
+
+    <hr>
+
+    <div class="row">
+
+
+      <form>
+
+        <div class=" col-xs-4">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-shopping-cart"></i></span>
+            <input id="myname" type="text" class="form-control" name="email" placeholder="Nom" value="velo">
+          </div>
+        </div>
+
+        <div class=" col-xs-4">
+
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-euro"></i></span>
+          <input id="myprix" type="number" class="form-control" name="password" placeholder="Prix" value="100" step="0.01">
+        </div>
+
+       </div>
+
+       <div class=" col-xs-4">
+
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+          <input id="mydesc" class="form-control" name="msg" placeholder="Additional Info" value="un joli vélo">
+        </div>
+
+      </div>
+
+      <input type="submit"value="valider" id="mybtn" class="btn btn-success"/>
+      </form>
+
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+
+         <table class="table table-bordered">
+          <thead>
+            <tr>
+               <th>REF</th>
+              <th>Nom produit</th>
+              <th>Prix (€)</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+
+
+          <tbody id="body">
+
+            <!-- <tr>
+              <td>FB-50CK0</td>
+              <td>Joel</td>
+              <td>29.60£</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti deleniti sequi a.</td>
+
+              <td>
+
+                <span class="btn btn-danger"><i class="fa fa-trash icon-form"></i></span>
+                <span class="btn btn-warning"><i class="fa fa-pencil icon-form"></i></span>
+              </td>
+            </tr> -->
+
+          </tbody>
+
+
+        </table>
+
+
+
+    </div>
+
+
+
+ </div>
+
+
+
+
+
+</body>
+
+</html>
